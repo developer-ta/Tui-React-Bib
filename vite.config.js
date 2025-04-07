@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],  
   build: {  
     lib: {  
-      entry: 'src/presentation_Layer/components/Tui-react-Bib/index.jsx', // Assurez-vous que ce chemin est correct  
+      entry: 'src/component/index.jsx', // Assurez-vous que ce chemin est correct  
       name: 'TuiReactBib',  
       fileName: (format) => `tui-react-bib.${format}.js`,  
     },  

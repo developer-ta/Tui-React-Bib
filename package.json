@@ -5,19 +5,27 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"vite build",
-    "PrebuildForPublish":"npm run build"
+    "build": "vite build",
+    "PrebuildForPublish": "npm run build"
   },
-  "repository": {  
-    "type": "git",  
-    "url": "https://github.com/developer-ta/Tui-React-Bib.git"  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developer-ta/Tui-React-Bib.git"
   },
-  "keywords": ["react", "vite", "composant"],
+  "keywords": [
+    "react",
+    "vite",
+    "composant"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "peerDependencies": {  
-    "react": "^19.0.0",  
-    "react-dom": "^19.0.0"  
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.5"
   }
 }
