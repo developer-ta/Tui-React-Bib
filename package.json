@@ -1,0 +1,23 @@
+{
+  "name": "tui-react-bib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"vite build",
+    "PrebuildForPublish":"npm run build"
+  },
+  "repository": {  
+    "type": "git",  
+    "url": "https://github.com/developer-ta/Tui-React-Bib.git"  
+  },
+  "keywords": ["react", "vite", "composant"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "peerDependencies": {  
+    "react": "^19.0.0",  
+    "react-dom": "^19.0.0"  
+  }
+}
