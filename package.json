@@ -1,5 +1,5 @@
 {
-  "name": "tui-react-bib",
+  "name": "@tui-react/bib/modal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "tui-react-bib": "^1.0.0",
     "vite": "^6.2.5"
   }
 }

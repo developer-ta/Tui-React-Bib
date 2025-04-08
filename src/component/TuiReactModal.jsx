@@ -4,6 +4,7 @@ const TuiReactModal = () => {
 	return (
 		<div>
 			<button type="button">click me</button>
+			
 		</div>
 	);
 }
