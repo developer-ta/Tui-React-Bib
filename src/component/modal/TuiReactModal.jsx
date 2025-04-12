@@ -3,7 +3,7 @@ import './TuiReactModal.scss';
 import { useMemo, useState } from 'react';
 const TuiReactModal = ({ visibility, message }) => {
   const [hidden, setHidden] = useState('hidden');
-  const visible = useMemo(() => {
+  useMemo(() => {
     if (visibility) {
       setHidden('');
       return true;
@@ -11,8 +11,7 @@ const TuiReactModal = ({ visibility, message }) => {
     setHidden('hidden');
     return visibility;
   }, [visibility]);
-  console.log('hidden: ', hidden);
-  console.log('visible: ', visible);
+
   return (
     <div className={`modal ${hidden}`}>
       <div className="modal-container">
