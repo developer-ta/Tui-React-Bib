@@ -20,7 +20,7 @@ Dans le fichier package.json, les dépendances sont les suivantes :
 "dependencies": {  
     "@vitejs/plugin-react": "^4.3.4",  
     "prop-types": "^15.8.1",  
-    "tui-react-bib": "^1.0.0", // votre bibliothèque modale  
+    "tui-react-bib": "^1.0.0", 
     "vite": "^6.2.5"  
 },  
 "devDependencies": {  
