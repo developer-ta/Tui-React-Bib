@@ -21,12 +21,11 @@
     background-color: #f6f8fa;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.71);
     text-align: start;
-    align-items: center;
-
-    .modal-title {
+    align-items: center;    position: absolute;    max-width: 420px;
+    .modal-detail{
       margin-left: 3%;
     }
-
+ 
     .modal-button {
       &-variant-1 {
         padding: 6.7px 12px;
@@ -40,36 +39,39 @@
         cursor: pointer;
         font-weight: bold;
         margin: 0px;
-        position: relative;
+        position: absolute;
         /* top: auto; */
-        bottom: 51%;
-        left: 63%;
+        bottom: 77%;
+        left: 95%;
         text-align: center;
         &:hover {
           background: #2b2b2b;
           scale: 1.05;
         }
       }
-      &-variant-2 {
-      }
-      &-variant-3 {
-      }
+   
     }
+  
+    .modal-detail {
+      margin-left: 10%;
   }
 
-  mediaQuery-360px-800px {
     @media (min-width: 360px) and (max-width: 768px) {
     }
-  }
-  mediaQuery-769px-1024px {
+  
+
     @media (min-width: 769px) and (max-width: 1024px) {
     }
-  }
-  mediaQuery-1025px-1440px {
+  
+
     @media (min-width: 1025px) and (max-width: 1440px) {
-    }
+    
   }
+    
+  
 }
+}
+
 .hidden {
   display: none; /* Affiché quand visible */
 }

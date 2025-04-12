@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
 import './TuiReactModal.scss';
 import { useMemo, useState } from 'react';
+
+
 const TuiReactModal = ({ visibility, message }) => {
+
   const [hidden, setHidden] = useState('hidden');
   useMemo(() => {
     if (visibility) {
@@ -21,7 +24,7 @@ const TuiReactModal = ({ visibility, message }) => {
             if (visibility) setHidden('hidden');
           }}
           type="button"
-          className="modal-button modal-button-variant-1"
+          className="modal-button-variant-1"
         >
           &#10005;
         </button>
