@@ -1,1 +1,1 @@
-export { default as Modal } from './TuiReactModal';
+export { default as Modal } from './modal/TuiReactModal';

@@ -1,6 +1,7 @@
 {
-  "name": "@tui-react/bib",
-  "version": "1.0.0",
+  "name": "tui-react-bib",
+  "version": "1.0.2",
+  "private": false,
   "description": "",
   "main": "index.js",
   "scripts": {
