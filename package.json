@@ -1,8 +1,8 @@
 {
   "name": "tui-react-bib",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "private": false,
-  "description": "",
+  "description": "J'ai créé et publié une bibliothèque React qui contient un composant de modal. Ce composant est similaire à ceux que l'on trouve dans les anciens projets basés sur jQuery, mais écrit dans le style moderne de React. L'objectif est de permettre à d'autres développeurs de l'intégrer facilement dans leurs projets en gardant une structure simple et conviviale.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,9 +16,10 @@
   "keywords": [
     "react",
     "vite",
-    "composant"
+    "composant",
+    "modal"
   ],
-  "author": "",
+  "author": "dev-ta",
   "license": "ISC",
   "type": "commonjs",
   "peerDependencies": {
